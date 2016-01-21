@@ -11,10 +11,10 @@ int main()
 	noecho();
 	curs_set(FALSE);
 
-	// Get the bounds of the console
-	getmaxyx(stdscr, max_y, max_x);
-
 	while (1) {
+		// Get the bounds of the console
+		getmaxyx(stdscr, max_y, max_x);
+
 		clear();
 
 		mvprintw(y, x, ".");

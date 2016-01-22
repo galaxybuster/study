@@ -1,2 +1,2 @@
 main: SDLTest.c
-	gcc -o sdltest sdltest.c `sdl2-config --cflags --libs`
+	gcc -o ../bin/sdltest sdltest.c `sdl2-config --cflags --libs`

@@ -21,6 +21,7 @@ int main(int argc, char* argv[]) {
 	);
 
 	// Check that the window was successfully created
+	printf("heh\n");
 	if (window == NULL) {
 		// In the case that the window could not be made...
 		printf("Could not create window: %s\n", SDL_GetError());
